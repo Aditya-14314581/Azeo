@@ -1,0 +1,160 @@
+
+      @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+      body {
+    background-color: #0a0a0a;
+}
+    .hovering{
+      --s: 20px;   /* the size of the image */
+     --b: 5px;     /* the border thickness*/
+     --g: 6px;    /* the gap */
+     --c: #151516; /* the color */
+  
+      width: var(--s);
+      aspect-ratio: 1;
+      outline: calc(var(--s)/2) solid rgba(26, 26, 26, 0);
+      outline-offset: calc(var(--s)/-2);
+      cursor: pointer;
+      transition: 0.3s;
+    
+    }
+     .hovering:hover{     
+      outline: var(--b) solid var(--c);
+      outline-offset: var(--g);
+      font-size: 20px;
+}
+.footer_logo{
+  width: 200px;
+  height: 150px;
+}
+.nav_logo{
+  width: 140px;
+  height: 50px;
+  margin-left: 100px;
+  
+}
+.nav_hover:hover{
+  background-color: aqua;
+}
+.navbar{
+  border-bottom: 2px solid aqua;
+  background-color: black;
+}
+
+.btn_design{
+  background-color: #323333;
+  color: aliceblue;
+  width: 150px;
+  height: 60px;
+  border: 2px solid aqua;
+  border-radius: 50px;
+  font-size: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu_body{
+  text-decoration: none;
+  color: aliceblue;
+}
+.menu_body:hover{
+  color: aqua;
+}
+.bright{
+  filter: brightness(40%);
+}
+
+.layout{
+            width: 100%;
+            margin: 10px;
+        }
+        .accordion{
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background: rgb(214, 244, 244);
+            border-radius: 10px;
+        }
+        .accordion__question p{
+            margin: 5px;
+            padding: 0;
+            font-family: Verdana;
+            font-size: 20px;
+        }
+        .accordion__answer p{
+            margin: 5px;
+            padding: 10px;
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: aqua;
+            border-radius: 10px; 
+        }
+        .accordion:hover{
+            cursor: pointer;
+        }
+        .accordion__answer {
+            display: none;
+        } 
+        .accordion.active .accordion__answer {
+            display: block;
+        }
+        .carousel-caption{
+           width:800px; z-index:10; color:#fff; text-align:center; top:50%; left:24%; bottom:auto; -webkit-transform:translate(0, -50%); -ms-transform:translate(0, -50%); transform:translate(0, -50%);
+        }
+        .wrapper .button{
+          display: inline-block;
+          height: 60px;
+          width: 60px;
+          float: left;
+          margin: 0 5px;
+          overflow: hidden;
+          background: rgb(28, 28, 28);
+          border-radius: 50px;
+          cursor: pointer;
+          box-shadow: 0px 10px 10px rgba(244, 243, 243, 0.1);
+          transition: all 0.3s ease-out;
+        }
+        /* .wrapper .button:hover{
+          width: 200px;
+        } */
+        .wrapper .button .icon{
+          display: inline-block;
+          height: 60px;
+          width: 60px;
+          text-align: center;
+          border-radius: 50px;
+          box-sizing: border-box;
+          line-height: 60px;
+          transition: all 0.3s ease-out;
+        }
+        .wrapper .button:nth-child(1):hover .icon{
+          background: #4267B2;
+        }
+        .wrapper .button:nth-child(2):hover .icon{
+          background: #E1306C;
+        }
+        .wrapper .button:nth-child(3):hover .icon{
+          background: #ff0000;
+        }
+        .wrapper .button .icon i{
+          font-size: 25px;
+          line-height: 60px;
+          transition: all 0.3s ease-out;
+        }
+        .wrapper .button:hover .icon i{
+          color: #fff;
+        }
+        .wrapper .button span{
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 60px;
+          margin-left: 10px;
+          transition: all 0.3s ease-out;
+        }
+        .wrapper .button:nth-child(1) span{
+          color: #4267B2;
+        }
+        .wrapper .button:nth-child(2) span{
+          color: #ff0000;
+        }
+        .wrapper .button:nth-child(3) span{
+          color: #ff0000;
+        }
+        
